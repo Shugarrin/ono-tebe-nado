@@ -14,7 +14,7 @@
 }
 .header_menu {
   color: #000;
-  font-family: "Raleway";
+  font-family: "Raleway", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -73,7 +73,7 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  background-image: url(/ono-tebe-nado/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -190,7 +190,7 @@
   padding: 50px 40px;
 }
 .card__film {
-  background-image: url(/ono-tebe-nado/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 .card__overlay {
   background-size: cover;
@@ -198,10 +198,10 @@
   background-color: rgba(0,0,0,.6);
 }
 .card__book {
-  background-image: url(/ono-tebe-nado/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 .card__picture {
-  background-image: url(/ono-tebe-nado/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 .card__title {
   color: #FFF;
@@ -259,7 +259,7 @@
 }
 .about__header{
   color: #000;
-  font-family: "Raleway";
+  font-family: "Raleway", serif;
   display: flex;
   color: #000;
   font-size: 40px;
@@ -283,7 +283,7 @@
 }
 .about__text_one {
   color: #000;
-  font-family: "Raleway";
+  font-family: "Raleway", serif;
   display: flex;
   font-size: 20px;
   font-style: normal;
@@ -301,9 +301,9 @@
   margin: 0px 47px 90px 50px;
   justify-content: space-between;
   color: #000;
-  font-family: "Raleway";
+  font-family: "Raleway", serif;
   font-size: 18px;
-  font-style: 400;
+  font-style: normal;
   font-weight: 400;
   line-height: 120%;
   position: relative;
@@ -331,17 +331,18 @@
   align-self: flex-start;
   position: relative;
   right: 26px;
-  top: 15px;
+  top: 14px;
 }
-.footer__social-list {
+.footer__social-icon {
+  height: 48px;
+  margin-left: 50px;
+}
+.footer__social-list-item{
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: end;
   position: relative;
   right: 50px;
   top: 8px;
-}
-.footer__social-icon {
-  height: 48px;
-  margin-left: 50px;
 }
