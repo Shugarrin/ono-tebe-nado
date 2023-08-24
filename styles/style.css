@@ -2,7 +2,6 @@
   margin:auto;
 }
 .header {
-  min-width: 1340px;
   min-height: 109px;
   display: grid;
   margin: 86px 49px 102px 51px;
@@ -45,7 +44,6 @@
   margin-top: 10px;
 }
 .header_logo-image {
-  width: 148px;
   height: 105px;
 }
 .tel .email {
@@ -67,7 +65,6 @@
 }
 .cover{
   margin-bottom: 175px;
-  min-width: 1440px;
   min-height: 757px;
   display: flex;
   flex-direction: column;
@@ -148,8 +145,11 @@
 }
 .lots {
   margin: 0 50px 181px 50px;
-  min-width: 1340px;
   min-height: 579px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
 }
 .lots__heading {
   padding: 0 0 27px 40px;
@@ -162,9 +162,9 @@
   justify-content: space-between;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 25px;
   list-style: none;
   padding-bottom: 30px;
+  gap: 25px;
 }
 .card-link {
   text-decoration: none;
@@ -176,7 +176,6 @@
   align-items: center;
   flex-grow: 1;
   min-height: 450px;
-  min-width: 430px;
   background-size: 100%;
   padding: 50px 40px;
 }
@@ -219,13 +218,13 @@
 .about {
   display: flex;
   position: relative;
-  margin: 0 50px 155px 50px;
-  min-width: 1340px;
-
+  margin: 0 50px 180px 50px;
+  align-items: flex-start;
 }
 .about__logo {
   width: 148px;
   margin: 63px 46px;
+  align-items: flex-start;
 }
 .about__logo-title {
   width: 240px;
@@ -235,7 +234,6 @@
   background-color: black 
 }
 .about__content {
-  min-width: 885px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -271,21 +269,20 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.about__text_one_one{
   padding-bottom: 25px;
-  padding:auto;
 }
 .footer {
-  min-width: 1343px;
   min-height: 97px;
   display: grid;
-  margin: 0 90px 47px 50px;
+  margin: 0 50px 90px 50px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 109px;
   text-underline-position: under;
 }
 .footer_menu{
   width: 149px;
-  height: 64px;
   position: relative;
   margin-left: 150px;
 }
@@ -307,7 +304,7 @@
   align-items: center;
 }
 .footer_address {
-  max-width: 250px;
+  width: 250px;
   position: relative;
   color: #000;
   font-family: "Raleway", sans-serif;
