@@ -269,9 +269,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-.about__text_one_one{
   padding-bottom: 25px;
+}
+.about__text_one:last-child{
+  padding-bottom: 0;
 }
 .footer {
   min-height: 97px;
